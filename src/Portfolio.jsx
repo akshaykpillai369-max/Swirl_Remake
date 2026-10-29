@@ -1,3 +1,5 @@
+import Reveal from './Reveal';
+
 export default function Portfolio(){
 
 
@@ -70,7 +72,7 @@ export default function Portfolio(){
                     </section>
 
            <section id="about" className="px-6 py-12 sm:px-12 lg:py-16">
-                
+                <Reveal>
                 <div className="mx-auto grid max-w-6xl gap-8 md:grid-cols-[0.9fr_1.1fr] md:gap-12 lg:gap-16">
 
                     <div>
@@ -78,6 +80,7 @@ export default function Portfolio(){
                         <p className="text-xs font-medium uppercase tracking-[0.25em] text-[#F0A36B]">
                             A little about me
                         </p>
+                        
 
                         <h2 className="mt-5 text-4xl font-medium leading-tight tracking-tight sm:text-5xl">
                             From web apps to 
@@ -86,7 +89,6 @@ export default function Portfolio(){
                             </span>
                         </h2>
                     </div>
-
                     <div className="flex flex-col justify-center">
                         <p className="text-lg leading-8 text-neutral-300">
                             I'm Akshay, a developer who enjoys turning ideas into reality through web applications, games and experiments with new technologies
@@ -99,12 +101,16 @@ export default function Portfolio(){
                             cybersecurity and discovering what else I can build through code.
                         </p>
 
+                    
+
                     </div>
                 </div>
+                </Reveal>
             </section>
 
             <section id="skills" className="border-t border-white/10 px-6 py-16 sm:px-12 lg:py-24">
 
+                <Reveal>
                 <div className="mx-auto max-w-6xl">
 
                     <div className="mb-12">
@@ -175,11 +181,16 @@ export default function Portfolio(){
                     </div>
                 </div>
 
+                </Reveal>
+
             </section>
 
             <section id="projects" className="border-t border-white/10 px-6 py-16 sm:px-12 lg:py-24">
+
+                
                 
                 <div className="mx-auto max-w-6xl">
+                    <Reveal>
                     <div className="mb-12">
                         <p className="text-xs font-medium uppercase tracking-[0.25em] text-[#F0A36B]">
                             THE SHOWCASE
@@ -193,6 +204,9 @@ export default function Portfolio(){
                             Alright, here's where I show off a little
                         </p>
                     </div>
+                    </Reveal>
+
+                    <Reveal>
 
                     <div className="grid gap-8 border-t border-white/10 py-8 md:grid-cols-2 md:items-center md:gap-12">
                         <div className="overflow-hidden rounded-xl border border-white/10 bg-[#101010]">
@@ -233,6 +247,9 @@ export default function Portfolio(){
                              </div>   
                         </div>
                         </div>
+                        </Reveal>
+
+                        <Reveal>
 
                     <div className="grid gap-8 border-t border-white/10 py-8 md:grid-cols-2 md:items-center md:gap-12">
                         <div className="overflow-hidden rounded-xl border border-white/10 bg-[#101010]">
@@ -273,7 +290,11 @@ export default function Portfolio(){
                                 Live Demo </a>
                             </div>
                         </div>
-                    </div>    
+                    </div>  
+
+                    </Reveal>
+
+                    <Reveal>  
 
                     <div className="grid gap-8 border-t border-white/10 py-8 md:grid-cols-2 md:items-center md:gap-12">
                         <div className="overflow-hidden rounded-xl border border-white/10 bg-[#101010]">
@@ -316,10 +337,13 @@ export default function Portfolio(){
                             </div>
                         </div>
                     </div>
+                    </Reveal>
                 </div>
             </section>
 
             <section id="contact" className="border-t border-white/10 px-6 py-20 sm:px-12 lg:py-28">
+
+                <Reveal>
                 <div className="mx-auto max-w-6xl">
                     <p className="text-xs font-medium uppercase tracking-[0.25em] text-[#F0A36B]">
                         GET IN TOUCH
@@ -358,10 +382,12 @@ export default function Portfolio(){
                         </a>
                     </div>
                 </div>
+                </Reveal>
             </section>
             
             <section id="credits" className="border-t border-white/10 px-6 py-12 sm:px-12">
             
+            <Reveal>
             <div className="mx-auto max-w-6xl">
                 <p className="text-xs font-medium uppercase tracking-[0.25em] text-[#F0A36B]">
                     THE PEOPLE BEHIND THIS
@@ -382,6 +408,7 @@ export default function Portfolio(){
                 Explore the original repository↗
                 </a>
             </div>
+            </Reveal>
                 
             </section>
 
