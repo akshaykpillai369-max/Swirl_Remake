@@ -316,6 +316,47 @@ export default function Portfolio(){
                     </div>
                 </div>
             </section>
+
+            <section id="contact" className="border-t border-white/10 px-6 py-20 sm:px-12 lg:py-28">
+                <div className="mx-auto max-w-6xl">
+                    <p className="text-xs font-medium uppercase tracking-[0.25em] text-[#F0A36B]">
+                        GET IN TOUCH
+                    </p>
+
+                    <h2 className="max-w-2xl text-4xl font-medium leading-tight tracking-tight sm:text-5xl lg:text-6xl">
+                        
+                        Have an idea?
+                        <span className="block text-neutral-500">
+                            Let's make it real
+                        </span>
+                    </h2>
+
+                    <p className="mt-6 max-w-lg leading-7 text-neutral-400">
+                        Whether it's a project, an interesting idea, or just casual conversation, my inbox is open. I'm always happy to connect.
+
+                    </p>
+
+                    <a href="mailto:akshaykpillai369@gmail.com" className="mt-8 inline-flex items-center gap-3 rounded-full bg-[#F0A36B] px-6 py-3.5 text-sm font-semibold text-[#080808] transition-colors duration-300 hover:bg-white">
+                        Say Hello
+                
+                    </a>
+
+
+                    <div className="flex flex-wrap md:border-t-0 gap-5">
+                        <a href="https://github.com/akshaykpillai369-max" target="_blank" rel="noopener noreferrer" className="flex items-center justify-between  py-5 text-neutral-300  transition-colors hover:text-[#F0A36B]">
+                        Github↗
+                        </a>
+
+                        <a href="https://www.linkedin.com/in/akshaykpillai369/" target="_blank" rel="noopener noreferrer" className="flex items-center justify-between py-5 text-neutral-300 transition-colors hover:text-[#F0A36B]">
+                        LinkedIn↗
+                        </a>
+
+                        <a href="https://hackclub.enterprise.slack.com/team/U0BBAC3E9U5" target="_blank" rel="noopener noreferrer" className="flex items-center justify-between py-5 text-neutral-300 transition-colors hover:text-[#F0A36B]">
+                        Slack↗ 
+                        </a>
+                    </div>
+                </div>
+            </section>
             
         </div>
     )
