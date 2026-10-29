@@ -87,7 +87,7 @@ export default function Portfolio(){
 
                     <div className="flex flex-col justify-center">
                         <p className="text-lg leading-8 text-neutral-300">
-                            I'm a developer who enjoys turning ideas into reality through web applications, games and experiments with new technologies
+                            I'm Akshay, a developer who enjoys turning ideas into reality through web applications, games and experiments with new technologies
                         </p>
 
                         <p className="mt-5 leading-7 text-neutral-500">
@@ -173,6 +173,148 @@ export default function Portfolio(){
                     </div>
                 </div>
 
+            </section>
+
+            <section id="projects" className="border-t border-white/10 px-6 py-16 sm:px-12 lg:py-24">
+                
+                <div className="mx-auto max-w-6xl">
+                    <div className="mb-12">
+                        <p className="text-xs font-medium uppercase tracking-[0.25em] text-[#F0A36B]">
+                            THE SHOWCASE
+                        </p>
+                        
+                        <h2 className="mt-5 text-4xl font-medium tracking-tight sm:text-5xl">
+                            Things I've made
+                        </h2>
+
+                        <p className="mt-4 max-w-lg leading-7 text-neutral-400">
+                            Alright, here's where I show off a little
+                        </p>
+                    </div>
+
+                    <div className="grid gap-8 border-t border-white/10 py-8 md:grid-cols-2 md:items-center md:gap-12">
+                        <div className="overflow-hidden rounded-xl border border-white/10 bg-[#101010]">
+                            <img src="/shopkart.png" alt="Shopkart e-commerce application" className="h-full w-full object-cover object-top transition-transform duration-500 hover:scale-[1.02]"/>
+                        </div>
+
+                        <div>
+                            <p className="text-xs font-medium uppercase tracking-[0.2em] text-[#F0A36B]">
+                                01 / E-commerce
+                            </p>
+
+                            <h3 className="mt-4 text-3xl font-medium tracking-tight">
+                                ShopKart
+                            </h3>
+
+                            <p className="mt-4 leading-7 text-neutral-400">
+                                A full-stack e-commerce project built to explore product browsing, category navigation, and the core features of an online store
+                            </p>
+
+                            <div className="mt-6 flex flex-wrap gap-2">
+                                {['React', 'Django REST Framework','PostgreSQL'].map((tech)=> (
+
+                                    <span key={tech} className="rounded-full border border-white/10 px-3 py-1.5 text-xs text-neutral-300">
+                                        {tech}
+                                    </span>
+                                ))}
+                            </div>
+                                
+                            <div className="flex flex-wrap gap-6"> 
+                            <a href="https://github.com/akshaykpillai369-max/ShopKart" target="_blank" className="mt-7 inline-flex items-center gap-2 text-sm font-medium text-white transition-colors hover:text-[#F0A36B]" rel="noopener noreferrer">
+                                 
+                                 View Repository
+                            </a>
+
+                            <a href="https://shopkart-lake.vercel.app/" target="_blank" rel="noopener noreferrer" className="mt-7 inline-flex items-center gap-2 text-sm font-medium text-white transition-colors hover:text-[#F0A36B]">
+                            Live Demo
+                             </a>
+                             </div>   
+                        </div>
+                        </div>
+
+                    <div className="grid gap-8 border-t border-white/10 py-8 md:grid-cols-2 md:items-center md:gap-12">
+                        <div className="overflow-hidden rounded-xl border border-white/10 bg-[#101010]">
+                        <img src="/trollbound.png" alt="Troll bound main menu" className="h-full w-full object-cover object-top transition-transform duration-500 hover:scale-[1.02]"/>
+                        </div>
+
+                        <div>
+                            <p className="text-xs font-medium uppercase tracking-[0.2em] text-[#F0A36B]">
+                                02 / Game Development
+                            </p>
+
+                            <h3 className="mt-4 text-3xl font-medium tracking-tight">
+                                Troll Bound
+                            </h3>
+
+                            <p  className="mt-4 leading-7 text-neutral-400">
+                                A pixel art game built in Godot, inspired by Level Devil, which is famous for unexpected traps, troll mechanics and plenty of surprises. Give it a try!
+
+                            </p>
+
+                            <div className="mt-6 flex flex-wrap gap-2">
+                                {['Godot', 'GDScript', 'Pixel Art'].map((tech)=>(
+
+                                    <span key={tech} className="rounded-full border border-white/10 px-3 py-1.5 text-xs text-neutral-300">
+                                        {tech}
+                                    </span>
+                                ))}
+                            </div>
+
+                            <div className="flex flex-wrap gap-9 ">
+
+                                <a href="https://github.com/akshaykpillai369-max/trollbound" target="_blank" className="mt-7 inline-flex items-center gap-2 text-sm font-medium text-white transition-colors hover:text-[#F0A36B]" rel="noopener noreferrer">
+                                View Repository 
+                                </a>
+
+
+                                <a href="https://akshay369.itch.io/trollbound" target="_blank" className="mt-7 inline-flex items-center gap-2 text-sm font-medium text-white transition-colors hover:text-[#F0A36B]" rel="noopener noreferrer">
+                                Live Demo </a>
+                            </div>
+                        </div>
+                    </div>    
+
+                    <div className="grid gap-8 border-t border-white/10 py-8 md:grid-cols-2 md:items-center md:gap-12">
+                        <div className="overflow-hidden rounded-xl border border-white/10 bg-[#101010]">
+                        <img src="/hollow_woods.png" alt="hollow woods main menu" className="h-full w-full object-cover object-top transition-transform duration-500 hover:scale-[1.02]" />
+                        </div>
+
+                        <div>
+                            <p className="text-xs font-medium uppercase tracking-[0.2em] text-[#F0A36B]">
+                                03 / Game Development
+                            </p>
+
+                            <h3 className="mt-4 text-3xl font-medium tracking-tight">
+                                Hollow Woods
+                            </h3>
+
+                            <p className="mt-4 leading-7 text-neutral-400">
+
+                                A pixel art game built in Godot for hackclub 3am challenge. Explore the experience and see what awaits you in the woods.
+                            </p>
+
+                            <div className="mt-6 flex flex-wrap gap-2">
+                                {['Godot', 'GDScript', 'Pixel Art'].map((tech)=> (
+
+                                    <span key={tech} className="rounded-full border border-white/10 px-3 py-1.5 text-xs text-neutral-300">
+
+                                        {tech}
+                                    </span>
+                                ))}
+                            </div>
+
+                            <div className="flex flex-wrap gap-6">
+
+                                <a href="https://github.com/akshaykpillai369-max/hollow_woods" target="_blank" rel="noopener noreferrer" className="mt-7 inline-flex items-center gap-2 text-sm font-medium text-white transition-colors hover:text-[#F0A36B]">
+                                View Repository
+                                </a>
+
+                                <a href="https://akshay369.itch.io/hollow-woods" target="_blank" rel="noopener noreferrer" className="mt-7 inline-flex items-center gap-2 text-sm font-medium text-white transition-colors hover:text-[#F0A36B]">
+                                Live Demo 
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </section>
             
         </div>
