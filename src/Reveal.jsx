@@ -21,7 +21,7 @@ export default function Reveal({children, className =''}){
                 looker.unobserve(element)
             }
         },
-        {threshold: 0.12}
+        {threshold: 0.25, rootMargin: '0px 0px -100px 0px'}
     )
 
     looker.observe(element)
