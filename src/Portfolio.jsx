@@ -95,13 +95,15 @@ export default function Portfolio(){
                         </p>
 
                         <div className="mt-3 flex flex-wrap items-center gap-3">
-                            <a href="#projects" className="group inline-flex items-center gap-3 rounded-full bg-[#F0A36B] px-5 py-3.5 text-sm font-semibold text-[#080808] transition-all duration-300 hover:bg-white">
+                            <a href="#projects" className="group inline-flex items-center gap-3 rounded-full bg-[#F0A36B] px-5 py-3.5 text-sm font-semibold text-[#080808] transition-all duration-200 ease-out hover:-translate-0.5 hover:bg-white hover:shadow-[0_0_20px_rgba(240, 163, 107, 0.15)] active:translate-y-0 active:scale-[0.98] focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#F0A36B]">
 
                                 Explore projects
-                                
+    
                             </a>
 
-                            <a href="#contact" className="rounded-full border border-white/15 px-5 py-3.5 text-sm text-neutral-300 transition-colors duration-300 hover:border-white/40 hover:text-white">Get in touch</a>
+                            <a href="#contact" className="inline-flex items-center rounded-full border border-white/15 px-5 py-3.5 text-sm text-neutral-300 transition-all duration-200 ease-out hover:-translate-y-0.5 hover:border-[#F0A36B] hover:text--[#F0A36B] active:translate-y-0 active:scale-[0.98] focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#F0A36B]">
+                            Get in touch
+                            </a>
                         </div>
                         </div>
 
@@ -109,10 +111,8 @@ export default function Portfolio(){
                             TRY AGAIN · FAIL AGAIN · TRY AGAIN · FAIL AGAIN
                         </div>
 
-                        <div className="mt-3 border-t border-white/10 pt-4">
+                        <div className="mt-3 border-t border-white/10 pt-4" />
                             
-
-                        </div>
 
                     
                     </section>
@@ -281,13 +281,13 @@ export default function Portfolio(){
                                 ))}
                             </div>
                                 
-                            <div className="flex flex-wrap gap-6"> 
-                            <a href="https://github.com/akshaykpillai369-max/ShopKart" target="_blank" className="mt-7 inline-flex items-center gap-2 text-sm font-medium text-white transition-colors hover:text-[#F0A36B]" rel="noopener noreferrer">
+                            <div className="mt-7 flex flex-wrap gap-3"> 
+                            <a href="https://github.com/akshaykpillai369-max/ShopKart" target="_blank" className="group inline-flex items-center gap-2 rounded-full border border-white/15 px-4 py-2.5 text-sm font-medium text-neutral-300 transition-all duration-200 ease-out hover:-translate-y-0.5 hover:border-[#F0A36B] hover:bg-[#F0A36B]/10 hover:text-[#F0A36B] active: translate-y-0 active:scale-[0.98] focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#F0A36B]" rel="noopener noreferrer">
                                  
                                  View Repository
                             </a>
 
-                            <a href="https://shopkart-lake.vercel.app/" target="_blank" rel="noopener noreferrer" className="mt-7 inline-flex items-center gap-2 text-sm font-medium text-white transition-colors hover:text-[#F0A36B]">
+                            <a href="https://shopkart-lake.vercel.app/" target="_blank" rel="noopener noreferrer" className="group inline-flex items-center gap-2 rounded-full border border-white/15 px-4 py-2.5 text-sm font-medium text-neutral-300 transition-all duration-200 ease-out hover:-translate-y-0.5 hover:border-[#F0A36B] hover:bg-[#F0A36B]/10 hover:text-[#F0A36B] active:translate-y-0 active:scale-[0.98] focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#F0A36B]">
                             Live Demo
                              </a>
                              </div>   
@@ -325,14 +325,14 @@ export default function Portfolio(){
                                 ))}
                             </div>
 
-                            <div className="flex flex-wrap gap-9 ">
+                            <div className="mt-7 flex flex-wrap gap-9 ">
 
-                                <a href="https://github.com/akshaykpillai369-max/trollbound" target="_blank" className="mt-7 inline-flex items-center gap-2 text-sm font-medium text-white transition-colors hover:text-[#F0A36B]" rel="noopener noreferrer">
+                                <a href="https://github.com/akshaykpillai369-max/trollbound" target="_blank" className="group inline-flex items-center gap-2 rounded-full border border-white/15 px-4 py-2.5 text-sm font-medium text-neutral-300 transition-all duration-200 ease-out hover:-translate-y-0.5 hover:border-[#F0A36B] hover:bg-[#F0A36B]/10 hover:text-[#F0A36B] active:translate-y-0 active:scale-[0.98] focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#F0A36B]" rel="noopener noreferrer">
                                 View Repository 
                                 </a>
 
 
-                                <a href="https://akshay369.itch.io/trollbound" target="_blank" className="mt-7 inline-flex items-center gap-2 text-sm font-medium text-white transition-colors hover:text-[#F0A36B]" rel="noopener noreferrer">
+                                <a href="https://akshay369.itch.io/trollbound" target="_blank" className="group inline-flex items-center gap-2 rounded-full border border-white/15 px-4 py-2.5 text-sm font-medium text-neutral-300 transition-all duration-200 ease-out hover:-translate-y-0.5 hover:border-[#F0A36B] hover:bg-[#F0A36B]/10 hover:text-[#F0A36B] active:translate-y-0 active:scale-[0.98] focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#F0A36B]" rel="noopener noreferrer">
                                 Live Demo </a>
                             </div>
                         </div>
@@ -371,13 +371,13 @@ export default function Portfolio(){
                                 ))}
                             </div>
 
-                            <div className="flex flex-wrap gap-6">
+                            <div className="mt-7 flex flex-wrap gap-6">
 
-                                <a href="https://github.com/akshaykpillai369-max/hollow_woods" target="_blank" rel="noopener noreferrer" className="mt-7 inline-flex items-center gap-2 text-sm font-medium text-white transition-colors hover:text-[#F0A36B]">
+                                <a href="https://github.com/akshaykpillai369-max/hollow_woods" target="_blank" rel="noopener noreferrer" className="group inline-flex items-center gap-2 rounded-full border border-white/15 px-4 py-2.5 text-sm font-medium text-neutral-300 transition-all duration-200 ease-out hover:-translate-y-0.5 hover:border-[#F0A36B] hover:bg-[#F0A36B]/10 hover:text-[#F0A36B] active:translate-y-0 active:scale-[0.98] focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#F0A36B]">
                                 View Repository
                                 </a>
 
-                                <a href="https://akshay369.itch.io/hollow-woods" target="_blank" rel="noopener noreferrer" className="mt-7 inline-flex items-center gap-2 text-sm font-medium text-white transition-colors hover:text-[#F0A36B]">
+                                <a href="https://akshay369.itch.io/hollow-woods" target="_blank" rel="noopener noreferrer" className="group inline-flex items-center gap-2 rounded-full border border-white/15 px-4 py-2.5 text-sm font-medium text-neutral-300 transition-all duration-200 ease-out hover:-translate-y-0.5 hover:border-[#F0A36B] hover:bg-[#F0A36B]/10 hover:text-[#F0A36B] active:translate-y-0 active:scale-[0.98] focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#F0A36B]">
                                 Live Demo 
                                 </a>
                             </div>
@@ -408,22 +408,22 @@ export default function Portfolio(){
 
                     </p>
 
-                    <a href="mailto:akshaykpillai369@gmail.com" className="mt-8 inline-flex items-center gap-3 rounded-full bg-[#F0A36B] px-6 py-3.5 text-sm font-semibold text-[#080808] transition-colors duration-300 hover:bg-white">
+                    <a href="mailto:akshaykpillai369@gmail.com" className="mt-3 group inline-flex items-center gap-3 rounded-full bg-[#F0A36B] px-6 py-3.5 text-sm font-semibold text-[#080808] transition-all duration-200 ease-out hover:-translate-y-0.5 hover:bg-white hover:shadow-[0_0_24px_rgba(240-163,107,0.2)] active:translate-y-0 active:scale-[0.98] focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#F0A36B]">
                         Say Hello
                 
                     </a>
 
 
-                    <div className="flex flex-wrap md:border-t-0 gap-5">
-                        <a href="https://github.com/akshaykpillai369-max" target="_blank" rel="noopener noreferrer" className="flex items-center justify-between  py-5 text-neutral-300  transition-colors hover:text-[#F0A36B]">
+                    <div className="flex flex-wrap gap-3 mt-3">
+                        <a href="https://github.com/akshaykpillai369-max" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 rounded-full border border-white/15 px-4 py-2.5 text-sm text-neutral-300 transition-all duration-200 ease-out hover:-translate-y-0.5 hover:border-[#8B949E] hover:bg-[#8B949E]/10 hover:text-[#C9D1D9] active:translate-y-0 active:scale-[0.98] focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#8B949E]">
                         Github↗
                         </a>
 
-                        <a href="https://www.linkedin.com/in/akshaykpillai369/" target="_blank" rel="noopener noreferrer" className="flex items-center justify-between py-5 text-neutral-300 transition-colors hover:text-[#F0A36B]">
+                        <a href="https://www.linkedin.com/in/akshaykpillai369/" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 rounded-full border border-white/15 px-4 py-2.5 text-sm text-neutral-300 transition-all duration-200 ease-out hover:-translate-y-0.5 hover:border-[#0A66C2] hover:bg-[#0A66C2]/10 hover:text-[#70B5F9] active:translate-y-0 active:scale-[0.98] focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#0A66C2]">
                         LinkedIn↗
                         </a>
 
-                        <a href="https://hackclub.enterprise.slack.com/team/U0BBAC3E9U5" target="_blank" rel="noopener noreferrer" className="flex items-center justify-between py-5 text-neutral-300 transition-colors hover:text-[#F0A36B]">
+                        <a href="https://hackclub.enterprise.slack.com/team/U0BBAC3E9U5" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 rounded-full border border-white/15 px-4 py-2.5 text-sm text-neutral-300 transition-all duration-200 ease-out hover:-translate-y-0.5 hover:border-[#611F69] hover:bg-[#611F69]/20 hover:text-[#D8A4DC] active:translate-y-0 active:scale-[0.98] focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#D8A4DC]">
                         Slack↗ 
                         </a>
                     </div>
@@ -450,7 +450,7 @@ export default function Portfolio(){
 
                 </p>
 
-                <a href="https://github.com/Rohan317685/Swirl-Project" target="_blank" rel="noopener noreferrer" className="mt-5 inline-flex items-center gap-2 text -sm text-neutral-300 transition-colors hover:text-[#F0A36B]">
+                <a href="https://github.com/Rohan317685/Swirl-Project" target="_blank" rel="noopener noreferrer" className=" mt-3 inline-flex items-center gap-2 rounded-full border border-white/15 px-4 py-2.5 text-sm text-neutral-300 transition-all duration-200 ease-out hover:-translate-y-0.5 hover:border-[#8B949E] hover:bg-[#8B949E]/10 hover:text-[#C9D1D9] active:translate-y-0 active:scale-[0.98] focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#8B949E]">
                 Explore the original repository↗
                 </a>
             </div>
