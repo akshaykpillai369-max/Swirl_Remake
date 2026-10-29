@@ -27,3 +27,30 @@
 .intro-inverted {
     filter: invert(1) hue-rotate(180deg);
 }
+
+.intro-content{
+
+  animation: intro-appear 800ms ease-out both;
+}
+
+@keyframes intro-appear{
+
+  from{
+    opacity:0;
+    transform:translateY(12px)
+  }
+
+  to{
+
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+
+  .intro-content{
+
+    animation: none;
+  }
+}

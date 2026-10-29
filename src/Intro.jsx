@@ -36,7 +36,7 @@ return (
             ) : (
             
             <main className="intro-inverted flex min-h-screen items-center justify-center bg-white px-6">
-                <div className="flex w-full max-w-md flex-col items-center text-center">
+                <div className="intro-content flex w-full max-w-md flex-col items-center text-center">
                     <h1 className="text-5xl font-bold tracking-tight sm:text-6xl">
                         swirl<span className="text-[#F0A36B]">.</span>
                     </h1>
@@ -50,7 +50,7 @@ return (
                         TRY AGAIN • FAIL AGAIN • TRY AGAIN • FAIL AGAIN
                     </p>
                 
-                <button onClick={() => setPlaying(true)} className="group mt-9 inline-flex items-center gap-3 rounded-full border border-black px-8 py-3.5 text-sm transition-all duration-300 hover: bg-black hover: text-white active:scale-95 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#F0A36B]">
+                <button onClick={() => setPlaying(true)} className="group mt-9 inline-flex items-center gap-3 rounded-full border border-black px-8 py-3.5 text-sm transition-all duration-300 hover:bg-black hover:text-white active:scale-95 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#F0A36B]">
                     Enter→
                 </button>
 
