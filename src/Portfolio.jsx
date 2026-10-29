@@ -18,6 +18,8 @@ export default function Portfolio(){
                         <a href="#skills" className="text-sm text-neutral-400 transition-colors hover:text-white sm:text-sm">Skills</a>
                         <a href="#projects" className="text-sm text-neutral-400 transition-colors hover:text-white sm:text-sm">Projects</a>
                         <a href="#contact" className="text-sm text-neutral-400 transition-colors hover:text-white sm:text-sm">Contact</a>
+                         <a href="#credits" className="text-sm text-neutral-400 transition-colors hover:text-white sm:text-sm">Credits</a>
+
                     </div>
                 </nav>
             </header>
@@ -357,6 +359,45 @@ export default function Portfolio(){
                     </div>
                 </div>
             </section>
+            
+            <section id="credits" className="border-t border-white/10 px-6 py-12 sm:px-12">
+            
+            <div className="mx-auto max-w-6xl">
+                <p className="text-xs font-medium uppercase tracking-[0.25em] text-[#F0A36B]">
+                    THE PEOPLE BEHIND THIS
+                </p>
+
+                <h2 className="mt-4 text-2xl font-medium tracking-tight sm:text-3xl">
+
+                    Built with inspiration
+                </h2>
+
+                <p className="mt-4 max-w-2xl leading-7 text-neutral-400">
+                    This project is a remake of Swirl, created for the Hack Club's Cont.d programme.
+                    Thanks to Alex, the Cont.d lead, for leading this amazing programme, and to Rohan for the original project that inspired this work.
+
+                </p>
+
+                <a href="https://github.com/Rohan317685/Swirl-Project" target="_blank" rel="noopener noreferrer" className="mt-5 inline-flex items-center gap-2 text -sm text-neutral-300 transition-colors hover:text-[#F0A36B]">
+                Explore the original repository↗
+                </a>
+            </div>
+                
+            </section>
+
+            <footer className="border-t border-white/10 px-6 py-8 sm:px-12">
+            <div className="mx-auto flex max-w-6xl flex-col gap-6 sm:flex-row sm:items-center sm:justify-between">
+                <a href="#home" className="w-fit text-xl font-bold tracking-tight text-white">
+                    swirl<span className="text-[#F0A36B]">.</span>
+                </a>
+
+                <a href="#home" className="w-fit text-sm text-neutral-400 transition-colors hover:text-[#F0A36B]">
+                Back to top↑
+                                
+                </a>
+                
+                </div>
+                </footer>
             
         </div>
     )
