@@ -100,6 +100,80 @@ export default function Portfolio(){
                     </div>
                 </div>
             </section>
+
+            <section id="skills" className="border-t border-white/10 px-6 py-16 sm:px-12 lg:py-24">
+
+                <div className="mx-auto max-w-6xl">
+
+                    <div className="mb-12">
+                        <p className="text-xs font-medium uppercase tracking-[0.25em] text-[#F0A36B]">
+                            A peek behind the curtain
+                        </p>
+
+                        <h2 className="mt-5 text-4xl font-medium tracking-tight sm:text-5xl">
+
+                            The stuff behind the scenes
+                        </h2>
+
+                        <p className="mt-4 max-w-lg leading-7 text-neutral-400">
+
+                            Things I use to turn ideas into something real
+                        </p>
+                        
+                    </div>
+
+                    <div className="grid gap-10 md:grid-cols-3">
+
+                        <div className="min-w-0">
+
+                            <p className="mb-2 text-xs tracking-[0.18em] text-[#F0A36B]">
+                                01 / WORDS THAT MAKE THINGS WORK
+                            </p>
+
+                            <div className="min-w-0 grid grid-cols-2 gap-3">
+                                {['Python','HTML', 'CSS'].map((skill)=> (
+
+                                    <div key={skill} className="rounded-lg border border-white/10 p-4 text-sm text-neutral-300 transition-all duration-200 hover:border-[#F0A36B]/60 hover:bg-[#F0A36B]/5 hover:text-[#F0A36B]">
+
+                                        {skill}
+                                    </div>
+                                ))}
+                            </div>
+                        </div>
+
+                        <div className="min-w-0">
+                            <p className="mb-2 text-xs tracking-[0.18em] text-[#F0A36B]">
+                                02 / WHERE IDEAS TAKE SHAPE
+                            </p>
+
+                            <div className="min-w-0 grid grid-cols-2 gap-3">
+                                {['React', 'Django REST Framework', 'Streamlit', 'Bootstrap', 'Tailwind CSS'].map((skill)=> (
+
+                                    <div key={skill} className="rounded-lg border border-white/10 p-4 text-sm text-neutral-300 transition-all duration-200 hover:border-[#F0A36B]/60 hover:bg-[#F0A36B]/5 hover:text-[#F0A36B]">
+                                        {skill}
+                                    </div>
+                                ))}
+                            </div>
+                        </div>
+
+                        <div className="min-w-0">
+                            <p className="mb-2 text-xs tracking-[0.18em] text-[#F0A36B]">
+                                03 / MY WEAPONS OF CHOICE
+                            </p>
+
+                            <div className="min-w-0 grid grid-cols-2 gap-3">
+                                {['VS Code','Git', 'GitHub', 'Godot', 'OpenCode', 'Antigravity'].map((skill)=>(
+
+                                    <div key={skill} className="rounded-lg border border-white/10 p-4 text-sm text-neutral-300 transition-all duration-200 hover:border-[#F0A36B]/60 hover:bg-[#F0A36B]/5 hover:text-[#F0A36B]">
+                                        {skill}
+                                    </div>
+                                ))}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
             
         </div>
     )
