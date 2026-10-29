@@ -1,19 +1,22 @@
 import Reveal from './Reveal';
+import { useState } from 'react';
 
 export default function Portfolio(){
+
+    const [menuOpen, setMenuOpen] = useState(false)
 
 
     return(
 
         <div className="min-h-screen bg-[#080808] text-white">
 
-            <header className="px-6 py-5 sm:px-12">
+            <header className="relative z-50 px-6 py-5 sm:px-12">
                 <nav className="flex items-center justify-between">
                     <h1 className="text-2xl font-bold tracking-tight">
                         swirl<span className="text-[#F0A36B]">.</span>
                     </h1>
 
-                    <div className="flex items-center gap-2 sm:gap-5 lg:gap-8">
+                    <div className="hidden items-center gap-5 lg:flex lg:gap-8">
 
                         <a href="#home" className="text-sm text-neutral-400 transition-colors hover:text-white sm:text-sm">Home</a>
                         <a href="#about" className="text-sm text-neutral-400 transition-colors hover:text-white sm:text-sm">About</a>
@@ -23,7 +26,50 @@ export default function Portfolio(){
                          <a href="#credits" className="text-sm text-neutral-400 transition-colors hover:text-white sm:text-sm">Credits</a>
 
                     </div>
+
+                    <button type='button' className='flex h-10 w-10 items-center justify-center rounded-lg text-neutral-300 transition-colors hover:bg-white/5 hover:text-[#F0A36B] lg:hidden' 
+                    onClick={() => setMenuOpen(!menuOpen)} aria-label={menuOpen ? 'Close navigation menu' : 'Open navigation menu'}
+                    aria-expanded={menuOpen} aria-controls='mobile-navigation'>
+
+                        {menuOpen ? (
+
+                            <svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='currentColor' strokeWidth='1.8' strokeLinecap='round'>
+
+                                <path d='M18 6 6 18'/>
+                                <path d='m6 6 12 12'/>
+                            </svg>
+                        ): (
+
+                            <svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='currentColor' strokeWidth='1.8' strokeLinecap='round' >
+
+                                <path d= 'M4 7h16' />
+                                <path d= 'M4 12h16' />
+                                <path d= 'M4 17h16' />
+                            </svg>
+                            
+                        )}
+
+
+                    </button>
                 </nav>
+
+                <div id='mobile-navigation' className={` ${menuOpen ? 'visible translate-y-0 opacity-100' : 'invisible -translate-y-2 opacity-0  pointer-events-none'} absolute left-6 right-6 top-full rounded-xl border border-white/10 bg-[#101010] p-3 shadow-xl transition-all duration-200 lh:hidden sm:left-12 sm:right-12`}>
+                        {[
+
+                            ['Home', '#home'],
+                            ['About', '#about'],
+                            ['Skills','#skills'],
+                            ['Projects', '#projects'],
+                            ['Contact', '#contact'],
+                            ['Credits', '#credits'],
+                        ].map(([label, href]) => (
+
+                            <a href={href} key={href} onClick={()=> setMenuOpen(false)}
+                            className='block rounded-lg px-4 py-3 text-smm text-neutral-300 transition-colors hover:bg-white/5 hover:text-[#F0A36B]'>
+                                {label}
+                            </a>
+                        ))}
+                </div>
             </header>
 
     
