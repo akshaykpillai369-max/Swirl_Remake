@@ -23,7 +23,7 @@ export default function Portfolio(){
             </header>
 
     
-            <section id="home" className="mx-auto flex min-h-[85vh] max-w-7xl flex-col justify-center px-6 py-16 sm:px-12">
+            <section id="home" className="mx-auto flex min-h-[75vh] max-w-7xl flex-col justify-center px-6 py-12 sm:px-12">
                     <div className="flex items-center gap-3">
                         <p className="text-xs font-medium uppercase tracking-[0.25em] text-neutral-400">
 
@@ -66,6 +66,41 @@ export default function Portfolio(){
 
                     
                     </section>
+
+           <section id="about" className="px-6 py-12 sm:px-12 lg:py-16">
+                
+                <div className="mx-auto grid max-w-6xl gap-8 md:grid-cols-[0.9fr_1.1fr] md:gap-12 lg:gap-16">
+
+                    <div>
+
+                        <p className="text-xs font-medium uppercase tracking-[0.25em] text-[#F0A36B]">
+                            A little about me
+                        </p>
+
+                        <h2 className="mt-5 text-4xl font-medium leading-tight tracking-tight sm:text-5xl">
+                            From web apps to 
+                            <span className="block text-neutral-500">
+                                weird little games.
+                            </span>
+                        </h2>
+                    </div>
+
+                    <div className="flex flex-col justify-center">
+                        <p className="text-lg leading-8 text-neutral-300">
+                            I'm a developer who enjoys turning ideas into reality through web applications, games and experiments with new technologies
+                        </p>
+
+                        <p className="mt-5 leading-7 text-neutral-500">
+
+                            I've created games like Hollow Woods and Troll Bound, and I'm always looking 
+                            for new ideas to explore. I'm also interested in expanding my knowledge of 
+                            cybersecurity and discovering what else I can build through code.
+                        </p>
+
+                    </div>
+                </div>
+            </section>
+            
         </div>
     )
 }
