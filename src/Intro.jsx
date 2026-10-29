@@ -1,24 +1,31 @@
 import {useState } from "react"
+import Portfolio from "./Portfolio"
 
 export default function Intro() {
 
     const [playing, setPlaying] = useState(false)
+    const [finished, setFinished] = useState(false)
+
 return (
-<main className="flex min-h-screen items-center justify-center overflow-hidden bg-[#FEFEFE] text-black">
+    <>
+        {finished ? (
 
-    {playing ? (
+            <Portfolio />
 
-        <video src="/hello.mp4" autoPlay playsInline className="w-full max-w-3xl" />
+            ) : playing ? (
 
-    ): (
+            <main className="flex min-h-screen items-center justify-center bg-white">
 
-        <button onClick={() => setPlaying(true)} className="rounded-full border border-black px-8 py-3 text-sm transition hover hover font-['Dancing_Script']">
+                <video src="/hello.mp4" autoPlay playsInline onEnded={() => setFinished(true)} className="w-full max-w-3xl"/>
 
-            Enter to the World of Magic 
-        </button>
+            </main>
+            ) : (
+            
+            <main className="flex min-h-screen items-center justify-center bg-white">
+                <button onClick={() => setPlaying(true)} className="rounded-full border border-black px-8 py-3 text-sm transition hover hover">
+                    Enter
+                </button>
+            </main>
+            )}
+    </>
     )}
-    
-   
-</main>
-)
-}
