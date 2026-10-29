@@ -30,7 +30,7 @@ return (
             <main className="intro-inverted flex min-h-screen items-center justify-center bg-white px-6">
 
 
-                <video src={`${import.meta.env.BASE_URL}hello.mp4`} autoPlay playsInline onEnded={() => setExit(true)} className={`w-full max-w-3xl transition-opacity duration-700 ${exit ? 'opacity-0' : 'opacity-100'}`}/>
+                <video src={`${import.meta.env.BASE_URL}hello.webm`} autoPlay playsInline onEnded={() => setExit(true)} className={`w-full max-w-3xl transition-opacity duration-700 ${exit ? 'opacity-0' : 'opacity-100'}`}/>
 
             </main>
             ) : (
