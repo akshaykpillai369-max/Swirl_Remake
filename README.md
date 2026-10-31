@@ -1,6 +1,8 @@
 # Swirl Remake
 
 A dark, minimal portfolio 
+<img width="663" height="552" alt="image" src="https://github.com/user-attachments/assets/539af099-4486-43b3-a778-2d9c181ccbe2" />
+
 
 # Description
 
@@ -21,7 +23,7 @@ Also this shows my web development projects, game development projects and many 
 
 # How to try this
 
--It's very simple, go to this link: 
+-It's very simple, go to this link: https://swirl-remake.vercel.app/
 
 # Tech stack of orignial Swirl
 
