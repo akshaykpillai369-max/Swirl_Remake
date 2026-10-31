@@ -23,7 +23,7 @@ Also this shows my web development projects, game development projects and many 
 
 # How to try this
 
--It's very simple, go to this link: https://swirl-remake.vercel.app/
+It's very simple, go to this link: https://swirl-remake.vercel.app/
 
 # Tech stack of orignial Swirl
 
