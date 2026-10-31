@@ -40,7 +40,7 @@ It's very simple, go to this link: https://swirl-remake.vercel.app/
 
 - Clone this repository
 - Go to the folder(most probably git will make a folder with the name of the project)
-- install dependencies using git install
+- install dependencies using npm install
 - npm run dev
 - go to this url : http://localhost:5173/
 
