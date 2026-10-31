@@ -56,7 +56,7 @@ As said, this project is inspired by the original Swirl project.
 
 # AI declaration
 
-I used AI mostly for planning, then do some of the tailwind css(because for me css is kinda boring), all the logic is written by me and also it helped me to make the hamburger svg for the mobile navigation and its implementation. I di not copy pasted AI outputs, I examined it and customised for me. That's all.
+I used AI mostly for planning, then do some of the tailwind css(because for me css is kinda boring), all the logic is written by me and also it helped me to make the hamburger svg for the mobile navigation and its implementation. I did not copy pasted AI outputs, I examined it and customised for me. That's all.
 
 
 # License
